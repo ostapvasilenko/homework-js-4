@@ -27,5 +27,26 @@ let gcd = function (FIRSTNUMBER, LASTNUMBER) {
 }
 alert(`Найбільший спільний дільник введених вами чисел = ${gcd(FIRSTNUMBER, LASTNUMBER)}`);*/
 
-/* Третє */
+/* Четверте */
+
+/*function isPrime(n, i) {
+  if (n < 0) {
+    alert('Ви ввели від’ємне число!!!')
+  }
+  if (n <= 2)
+    return (n == 2) ? true : false;
+  if (n % i == 0)
+    return false;
+  if (i * i > n)
+    return true;
+
+  return isPrime(n, i + 1);
+}
+
+let n = Number(prompt('Введіть будь яке додатнє число'));
+
+if (isPrime(n, 2))
+  alert("Введене вами число ПРОСТЕ!");
+else
+  alert("Введене вами число НЕПРОСТЕ!");*/
 
