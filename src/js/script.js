@@ -27,3 +27,5 @@ let gcd = function (FIRSTNUMBER, LASTNUMBER) {
 }
 alert(`Найбільший спільний дільник введених вами чисел = ${gcd(FIRSTNUMBER, LASTNUMBER)}`);*/
 
+/* Третє */
+
