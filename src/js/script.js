@@ -50,3 +50,38 @@ if (isPrime(n, 2))
 else
   alert("Введене вами число НЕПРОСТЕ!");*/
 
+
+/* П’яте */
+
+/*function factors(USERNUMBER, i) {
+  if (USERNUMBER <= 0) {
+    alert('Ви ввели невірне число!!!')
+  }
+  if (i <= USERNUMBER) {
+    if (USERNUMBER % i == 0) {
+      console.log(i + " ");
+    }
+    factors(USERNUMBER, i + 1);
+  }
+}
+
+const USERNUMBER = Number(prompt('Введіть будь яке додатнє число!'));
+factors(USERNUMBER, 1);*/
+
+/* Шосте */
+
+/*function fibonacci(num) {
+  return (num < 2) ? num : fibonacci(num - 1) + fibonacci(num - 2)
+}
+const nTerms = prompt('Введіть кількість термінів ряду Фібоначчі!');
+
+if (nTerms <= 0) {
+  alert('Введіть додатнє число!!!');
+}
+else {
+  for (let i = 0; i < nTerms; i++) {
+    console.log(fibonacci(i));
+  }
+}*/
+
+
