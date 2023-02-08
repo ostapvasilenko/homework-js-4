@@ -27,6 +27,19 @@ let gcd = function (FIRSTNUMBER, LASTNUMBER) {
 }
 alert(`Найбільший спільний дільник введених вами чисел = ${gcd(FIRSTNUMBER, LASTNUMBER)}`);*/
 
+/* Третє */
+
+let n = prompt('Введіть будь яке додатнє число!')
+function maxDigit(n) {
+  let remainder = n % 10
+  if (n < 0) {
+    alert('Ви ввели від’ємне число!!!')
+  } else {
+    return (n == 0) ? 0 : Math.max(remainder, maxDigit((n - remainder) * 1e-1))
+  }
+}
+alert(`Найбільша цифра у введеному вами числі є: ${maxDigit(n)}`);
+
 /* Четверте */
 
 /*function isPrime(n, i) {
