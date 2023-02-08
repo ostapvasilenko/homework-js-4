@@ -6,7 +6,7 @@ let exponent = function (NUMBER, DEGREE) {
 
   if (NUMBER < 0 || DEGREE < 0) {
     alert('Ви ввели від’ємне число!!!')
-  } else{
+  } else {
     return (DEGREE === 1) ? NUMBER : (NUMBER * exponent(NUMBER, DEGREE - 1))
   }
 }
