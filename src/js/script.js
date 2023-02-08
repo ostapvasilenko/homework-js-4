@@ -1,6 +1,6 @@
 /* Перше */
 
-/*const NUMBER = Number(prompt('Введіть ваше число!'))
+const NUMBER = Number(prompt('Введіть ваше число!'))
 const DEGREE = Number(prompt('Введіть ступінь до якого хочете піднести число!'))
 let exponent = function (NUMBER, DEGREE) {
 
@@ -11,11 +11,11 @@ let exponent = function (NUMBER, DEGREE) {
   }
 }
 
-alert(`Ваше число піднесене до степеню = ${exponent(NUMBER, DEGREE)}`);*/
+alert(`Ваше число піднесене до степеню = ${exponent(NUMBER, DEGREE)}`);
 
 /* Друге */
 
-/*const FIRSTNUMBER = Number(prompt('Введіть перше число'))
+const FIRSTNUMBER = Number(prompt('Введіть перше число'))
 const LASTNUMBER = Number(prompt('Введіть друге число'))
 let gcd = function (FIRSTNUMBER, LASTNUMBER) {
   if (FIRSTNUMBER < 0 || LASTNUMBER < 0) {
@@ -25,24 +25,24 @@ let gcd = function (FIRSTNUMBER, LASTNUMBER) {
   }
 
 }
-alert(`Найбільший спільний дільник введених вами чисел = ${gcd(FIRSTNUMBER, LASTNUMBER)}`);*/
+alert(`Найбільший спільний дільник введених вами чисел = ${gcd(FIRSTNUMBER, LASTNUMBER)}`);
 
 /* Третє */
 
-let n = prompt('Введіть будь яке додатнє число!')
-function maxDigit(n) {
-  let remainder = n % 10
-  if (n < 0) {
+const NUMBERS = prompt('Введіть будь яке додатнє число!')
+function maxDigit(NUMBERS) {
+  let remainder = NUMBERS % 10
+  if (NUMBERS < 0) {
     alert('Ви ввели від’ємне число!!!')
   } else {
-    return (n == 0) ? 0 : Math.max(remainder, maxDigit((n - remainder) * 1e-1))
+    return (NUMBERS == 0) ? 0 : Math.max(remainder, maxDigit((NUMBERS - remainder) * 1e-1))
   }
 }
-alert(`Найбільша цифра у введеному вами числі є: ${maxDigit(n)}`);
+alert(`Найбільша цифра у введеному вами числі є: ${maxDigit(NUMBERS)}`);
 
 /* Четверте */
 
-/*function isPrime(n, i) {
+function isPrime(n, i) {
   if (n < 0) {
     alert('Ви ввели від’ємне число!!!')
   }
@@ -61,12 +61,12 @@ let n = Number(prompt('Введіть будь яке додатнє число'
 if (isPrime(n, 2))
   alert("Введене вами число ПРОСТЕ!");
 else
-  alert("Введене вами число НЕПРОСТЕ!");*/
+  alert("Введене вами число НЕПРОСТЕ!");
 
 
 /* П’яте */
 
-/*function factors(USERNUMBER, i) {
+function factors(USERNUMBER, i) {
   if (USERNUMBER <= 0) {
     alert('Ви ввели невірне число!!!')
   }
@@ -79,11 +79,11 @@ else
 }
 
 const USERNUMBER = Number(prompt('Введіть будь яке додатнє число!'));
-factors(USERNUMBER, 1);*/
+factors(USERNUMBER, 1);
 
 /* Шосте */
 
-/*function fibonacci(num) {
+function fibonacci(num) {
   return (num < 2) ? num : fibonacci(num - 1) + fibonacci(num - 2)
 }
 const nTerms = prompt('Введіть кількість термінів ряду Фібоначчі!');
@@ -95,6 +95,6 @@ else {
   for (let i = 0; i < nTerms; i++) {
     console.log(fibonacci(i));
   }
-}*/
+}
 
 
